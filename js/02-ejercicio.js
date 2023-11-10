@@ -7,10 +7,21 @@ Añade en última posición la ciudad de París.
 Escribe por pantalla el elemento que ocupa la segunda posición.
 Sustituye el elemento que ocupa la segunda posición por la ciudad de 'Barcelona'.
  */
-let resultado = [];
-let ciudad;
-console.log(resultado.length);
-while(ciudad = prompt('Introduce una ciudad:')){
-    resultado.push(ciudad)
-    console.log(resultado)
-};
+    let ciudades = []; //arreglo
+    let ciudad; //variable
+
+    document.write(`<h2>Arreglo ciudades</h2>`)
+    document.write('<ul>')
+    while (ciudad = prompt('Ingrese el nombre de una ciudad:')) { //mientras le pida al user una ciudad...
+        ciudades.push(ciudad); //en mi array se van a ir juntando las ciudades introducidas
+        document.write(`<li>Elemento: ${[ciudad]}</li>`);
+    }
+    document.write('</ul>')
+    document.write(`El arreglo de ciudades tiene ${[ciudades.length]} elementos`)
+
+
+    document.write("<ul>");
+    document.write("<p>Primera posición: " + ciudades[0] + "</p>");
+    document.write("<p>Tercera posición: " + ciudades[2] + "</p>");
+    document.write("<li>Última posición: " + ciudades[ciudades.length - 1] + "</li>");
+    document.write("</ul>");
