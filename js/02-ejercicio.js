@@ -7,10 +7,10 @@ Añade en última posición la ciudad de París.
 Escribe por pantalla el elemento que ocupa la segunda posición.
 Sustituye el elemento que ocupa la segunda posición por la ciudad de 'Barcelona'.
  */
-
-let ciudad = prompt('Introduce el nombre de una ciudad:'); //solicitar al user
-let ciudadesIntroducidas = [ciudad]
-document.write('<h2>Arreglo de ciudades:</h2>')
-document.write('<ul>')
-document.write(`<li>${[ciudad]}</li>`)
-document.write('</ul>')
+let resultado = [];
+let ciudad;
+console.log(resultado.length);
+while(ciudad = prompt('Introduce una ciudad:')){
+    resultado.push(ciudad)
+    console.log(resultado)
+};
