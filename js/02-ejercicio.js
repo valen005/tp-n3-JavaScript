@@ -17,11 +17,11 @@ Sustituye el elemento que ocupa la segunda posición por la ciudad de 'Barcelona
         document.write(`<li>Elemento: ${[ciudad]}</li>`);
     }
     document.write('</ul>')
+    
     document.write(`El arreglo de ciudades tiene ${[ciudades.length]} elementos`)
 
-
-    document.write("<ul>");
-    document.write("<p>Primera posición: " + ciudades[0] + "</p>");
-    document.write("<p>Tercera posición: " + ciudades[2] + "</p>");
-    document.write("<li>Última posición: " + ciudades[ciudades.length - 1] + "</li>");
-    document.write("</ul>");
+    document.write('<ul>');
+    document.write(`<li>Primera posición: ${ciudades[0]}</li>`);
+    document.write(`<li>Tercera posición: ${ciudades[2]}</li>`);
+    document.write(`<li>Última posición: ${ciudades[ciudades.length - 1]}</li>`);
+    document.write('</ul>');
