@@ -8,6 +8,7 @@ Escribe por pantalla el elemento que ocupa la segunda posición.
 Sustituye el elemento que ocupa la segunda posición por la ciudad de 'Barcelona'.
  */
 
+//me esta costando agregar paris y barcelona al arreglo de ciud.
 let ciudades = []; //arreglo
 let ciudad;
 
