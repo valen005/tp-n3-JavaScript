@@ -10,5 +10,5 @@ function numeroDado(numero) {
   }
 }
 
-const numeroEjemplo = numeroDado(11);
+const numeroEjemplo = numeroDado(5);
 document.write (`${numeroEjemplo}`)
